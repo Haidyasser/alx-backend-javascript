@@ -1,7 +1,6 @@
 # 0x00-ES6_basic
 
 ## Learning Objectives
-
 <li>What ES6 is</li>
 <li>New features introduced in ES6</li>
 <li>The difference between a constant and a variable</li>
@@ -13,7 +12,6 @@
 <li>Iterators and for-of loops</li>
 
 ## Resources
-
 <li><a href="https://intranet.alxswe.com/rltoken/NW1dFLFExQ12_hD8yvkV3A" target="_blank" title="ECMAScript 6 - ECMAScript 2015">ECMAScript 6 - ECMAScript 2015</a></li>
 <li><a href="https://intranet.alxswe.com/rltoken/sroRUsUvOZV28V99MHDenw" target="_blank" title="Statements and declarations">Statements and declarations</a></li>
 <li><a href="https://intranet.alxswe.com/rltoken/N2WLylppCtkkX3YFFtyUHw" target="_blank" title="Arrow functions">Arrow functions</a></li>
@@ -22,7 +20,6 @@
 <li><a href="https://intranet.alxswe.com/rltoken/JAB5Y0TOU8d9JvmJEi9tiQ" target="_blank" title="Javascript ES6 — Iterables and Iterators">Javascript ES6 — Iterables and Iterators</a></li>
 
 ## Concepts
-
 <li>
 <a href="https://intranet.alxswe.com/concepts/541">Modern Javascript</a>
 </li>
