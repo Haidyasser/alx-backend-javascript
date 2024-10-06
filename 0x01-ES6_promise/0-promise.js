@@ -1,8 +1,11 @@
 function getResponseFromAPI() {
-    return new Promise(
-        (resolved) => resolved(),
-        (rejected) => rejected()
-    );
+  return new Promise(
+    (resolve) => {
+      setTimeout(() => {
+        resolve();
+      }, 500);
+    },
+  );
 }
 
 export default getResponseFromAPI;
