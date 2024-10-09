@@ -1,11 +1,11 @@
 /* eslint-disable */
 export default function cleanSet(set, startString) {
   if (!set || !startString) return '';
-  const newSet = new Set();
+  let ans = [];
   set.forEach((value) => {
-    if (value.startsWith(startString)) {
-      newSet.add(value.slice(startString.length));
+    if (typeof value === 'string' && value.startsWith(startString)) {
+      ans.push(value.slice(startString.length));
     }
   });
-  return [...newSet].join('-');
+  return ans.join('-');
 }
