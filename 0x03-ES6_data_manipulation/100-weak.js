@@ -1,3 +1,4 @@
+/* eslint-disable */
 const weakMap = new WeakMap();
 
 function queryAPI(endpoint) {
