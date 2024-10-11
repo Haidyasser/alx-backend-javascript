@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default class HolbertonCourse {
     static validateType(name, length, students) {
       if (typeof name !== 'string') {
@@ -16,7 +17,6 @@ export default class HolbertonCourse {
   
     constructor(name, length, students) {
       HolbertonCourse.validateType(name, length, students);
-      /* eslint-disable */
       this._name = name;
       this._length = length;
       this._students = students;
