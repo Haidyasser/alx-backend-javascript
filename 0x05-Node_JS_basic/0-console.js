@@ -1,4 +1,7 @@
 /* eslint-disable */
-exports.displayMessage = function(message) {
+
+const displayMessage = function(message) {
   console.log(message);
 }
+
+module.exports = displayMessage;
