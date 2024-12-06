@@ -23,4 +23,5 @@ function countStudents(path) {
         throw new Error('Cannot load the database');
     }
 }
-countStudents('database.csv');
+
+module.exports = countStudents;
